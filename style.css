@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+  }
+  
+  body    {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+  
+  }
+  .circle    {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background-color: rgb(126, 125, 124);
+  }
+  
+  
+  .buttons    {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      margin-left: 10px;
+  }
+  
+  button  {
+      border-radius: 5px;
+      border-width: 1px;
+  
+  }
+  .btn_red:hover  {
+      background-color: red;
+  }
+  
+  .btn_yellow:hover  {
+      background-color: yellow;
+  }
+  
+  .btn_green:hover  {
+      background-color: green;
+  }
+  
+  .btn_reset:hover  {
+      background-color: rgb(126, 125, 124);
+  }
